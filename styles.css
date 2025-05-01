@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: manrope;
+    
+}
+
+.main-container{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(4, 4, 120);
+    margin: 3rem auto;
+    margin-top: 120px;
+    border-radius: 32px;
+    gap: 1rem;
+    
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: rgb(202, 199, 199);
+}
+
+#enterNumber{
+    width: 80px;
+    height: 45px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+button{
+    padding: 15px 50px;
+    background-color: rgb(47, 145, 194);
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 500;
+    color: #fafafa;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(40, 128, 172);
+    
+}
+
+input[type="number"]{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+div{
+    color: white;
+    text-align: center;
+
+}
