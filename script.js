@@ -9,19 +9,24 @@ function generateTable() {
     const number = Number(inputNumber.value);
     table.innerHTML = "";
 
+
+    const header = document.createElement("h2");
+    header.textContent = "Result";
+    table.appendChild(header);
+
+    
     if (!number || number < 1 || number > 1000) {
-        table.textContent = "Please enter a number between 1 and 1000.";
+        const error = document.createElement("p");
+        error.textContent = "Please enter a number between 1 and 1000.";
+        table.appendChild(error);
         return;
     }
 
-    const list = document.createElement("ul");
 
     for (let i = 1; i <= 10; i++) {
-        const item = document.createElement("li");
+        const item = document.createElement("h4");
         item.textContent = `${number} × ${i} = ${number * i}`;
-        list.appendChild(item);
+        table.appendChild(item);
     }
-
-    table.appendChild(list);
 }
 

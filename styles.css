@@ -69,6 +69,19 @@ input[type="number"]{
 
 div{
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 
+}
+
+h4{
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
